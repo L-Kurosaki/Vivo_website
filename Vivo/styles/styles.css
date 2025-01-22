@@ -1,0 +1,62 @@
+.thumbnail{
+    width: 100%;
+}
+
+
+
+
+.video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 40px;
+}
+
+.video-info-grid{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+
+.title-option{
+    font-weight: bold;
+    cursor: pointer;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.check-mark{
+    background-color: rgba(99, 99, 99, 0.322);
+    color: black;
+    border-radius: 100px;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.Author{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-weight: 500px;
+    color: rgb(65, 64, 64);
+}
+
+.profile{
+    width: 30px;
+    border-radius: 100px;
+}
+
+.Channel{
+    vertical-align: top;
+    margin-right: 4px;
+    cursor: pointer;
+}
+
+.description-class{
+    width: 90%;
+    cursor: pointer;
+}
+
+.title-option{
+    margin-top: 0;
+    cursor: pointer;
+}
